@@ -24,7 +24,6 @@ int main(){
             split(a,':',v);
             if(v[0].find('-')==string::npos){
                 ans += cv(v[1]);
-        cout<<cv(v[0])<<" "<<cv(v[1])<<endl;
             }
 
             if(v[0].find('-')!=string::npos){
