@@ -26,10 +26,10 @@ int main(){
                 ans += cv(v[1]);
             }
 
-            if(v[0].find('-')!=string::npos){
-                            vector<string> x;
-                            split(v[0],'-',x);
-                            ans += (1+cv(x[1])-cv(x[0]))*cv(v[1]);
+            else{
+                vector<string> x;
+                split(v[0],'-',x);
+                ans += (1+cv(x[1])-cv(x[0]))*cv(v[1]);
             }
 
         }
